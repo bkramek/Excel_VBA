@@ -1,0 +1,22 @@
+﻿<Window x:Class="DlaElmiqa.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Password"
+        Height="190.872"
+        Width="327.657" WindowStartupLocation="CenterScreen">
+    <Grid Margin="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock VerticalAlignment="Center" Margin="0,23,0,33" Grid.RowSpan="2">Password</TextBlock>
+        <PasswordBox Name="Password" Grid.Column="1" VerticalAlignment="Center" Margin="0,23,0,31" Grid.RowSpan="2"/>
+        <Button Grid.Column="1" Grid.Row="1"
+        HorizontalAlignment="Right" Height="22" Click="Login_Click" Margin="0,20,48,31" Grid.RowSpan="2">Login</Button>
+    </Grid>
+</Window>

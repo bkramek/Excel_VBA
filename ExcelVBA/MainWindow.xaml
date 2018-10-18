@@ -1,0 +1,18 @@
+﻿<Window x:Class="DlaElmiqa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DlaElmiqa"
+        mc:Ignorable="d"
+        Title="Kopiowanie Makr" Height="356.54" Width="522.139" Background="AliceBlue">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="button" Content="Wybierz Plik" HorizontalAlignment="Left" Height="40" Margin="406,43,0,0" VerticalAlignment="Top" Width="80" Click="button_Click" />
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="40,46,0,243" TextWrapping="Wrap" Width="349" TextChanged="textBox_TextChanged" RenderTransformOrigin="0.461,1.088" />
+
+    </Grid>
+</Window>
